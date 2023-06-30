@@ -644,7 +644,7 @@ To view our reprojected x,y,z points, we can plot them using the plotting functi
    
    # Plot DEM and camera location
    fig,(ax1) = plt.subplots(1, figsize=(15,15))
-   fig.canvas.set_window_title('TU1 calving event locations')
+   fig.canvas.manager.set_window_title('TU1 calving event locations')
    ax1.locator_params(axis = 'x', nbins=8)
    ax1.tick_params(axis='both', which='major', labelsize=0)
    ax1.imshow(dem, origin='lower', extent=demextent, cmap='gray')
