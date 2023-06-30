@@ -4,5 +4,7 @@
 build/
 dist/
 develop-eggs/
+eggs/
+.eggs/
 *.egg-info/
 *.egg
