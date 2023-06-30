@@ -1,5 +1,8 @@
-
 *.pyc
-.vscode/
 *__pycache__/
+.vscode/
 build/
+dist/
+develop-eggs/
+*.egg-info/
+*.egg
